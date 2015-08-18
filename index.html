@@ -23,14 +23,32 @@
 
  <body>
  
-  <!-- bienvenida -->
+ <!-- Principal -->
+ <div data-role="page" id="principal" >  
+ <div>
+ <ul data-role="listview">
+ <li><a href="#principal">Principal</a></li>
+  <li><a href="#pantalla01">Bienvenida</a></li>
+  <li><a href="#pantalla02">Ajustes</a></li>
+  <li><a href="#pantalla03">Puntajes</a></li>
+  <li><a href="#pantalla04">Acerca de</a></li>
+  <li><a href="#pantalla05">Ayuda</a></li>
+ </ul>
+ </div>
+  <div data-role="footer">
+    <h1>Menú</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+ <!-- bienvenida-->
  <div data-role="page" id="bienvenida" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Bienvenida</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla01" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -39,10 +57,93 @@
  </div>  
  <!-- bienvenida -->
  
-  <!-- Principal -->
- <div data-role="page" id="principal" >   
+  <!-- pantalla01 -->
+ <div data-role="page" id="pantalla01" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Bienvenida</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#pantalla02" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- Pantalla01 -->
+ 
+  <!-- Pantalla02 -->
+ <div data-role="page" id="pantalla02" >   
+  <div data-role="header">
+    <h1>Ajustes</h1>
+  </div>
+
+  <center>
+  <div data-role="main" class="ui-content">
+    <a href="#" id="btn_sonido" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline ">SONIDO</a>
+  <div data-role="main" class="ui-content"> 
+    <a href="#" id="btn_vibrar" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right ui-btn-inline">VIBRAR</a>
+  </div></center>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- Pantalla02 -->
+ 
+  <!-- Pantalla03 -->
+ <div data-role="page" id="pantalla03" >   
+  <div data-role="header">
+    <h1>Puntajes</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#pantalla04" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- pantalla03 -->
+ 
+  <!-- Panytalla04 -->
+ <div data-role="page" id="pantalla04" >   
+  <div data-role="header">
+    <h1>Acerca de</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#pantalla05" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- Pantalla04 -->
+ 
+  <!-- Pantalla05 -->
+ <div data-role="page" id="pantalla05" >   
+  <div data-role="header">
+    <h1>Ayuda</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#pantalla06" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Pie</h1>
+  </div>
+ </div>  
+ <!-- Pantalla05 -->
+ 
+  <!-- Pantalla06 -->
+ <div data-role="page" id="pantalla06" >   
+  <div data-role="header">
+    <h1>Pantalla06</h1>
   </div>
 
   <div data-role="main" class="ui-content">
@@ -53,73 +154,6 @@
     <h1>Pie</h1>
   </div>
  </div>  
- <!-- Principal -->
- 
-  <!-- ajustes -->
- <div data-role="page" id="ajustes" >   
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
- </div>  
- <!-- ajustes -->
- 
-  <!-- puntuajes -->
- <div data-role="page" id="puntuajes" >   
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
- </div>  
- <!-- puntuajes -->
- 
-  <!-- acerca_de -->
- <div data-role="page" id="acerca_de" >   
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
- </div>  
- <!-- acerca_de -->
- 
-  <!-- ayuda -->
- <div data-role="page" id="ayuda" >   
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
- </div>  
- <!-- ayuda -->
- 
-  
-
+ <!-- Pantalla06 -->
  </body>
 </html> 
